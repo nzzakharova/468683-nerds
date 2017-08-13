@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+
+<header class="main-header">
+  	<nav class="main-navigation">
+  	 <a class="main-header-logo">
+       <img src="img/logo.svg" width="160" height="65" alt="Логотип агентства «Nerds»"></a>
+  	 <ul class="site-navigation">
+  	   <li><a href="studio.html">Студия</a></li>
+  	   <li><a href="clients.html">Клиента</a></li>
+  	   <li class="site-navigation-current">Магазин</li>
+  	   <li><a href="contacts.html">Контакты</a></li>
+  	 </ul>
+  	 <ul class="cart">
+  	  <li class="login-cart">Корзина</li>
+  	 </ul>
+ 	</nav>
+ 	</header>
+
+ 	<main class="container">
+ 		<h1 class="page-title">Магазин готовых шаблонов</h1>
+
+ 		<section class="filters">
+ 			<h2 class="visually-hidden">Фильтр</h2>
+ 			<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+ 				<fieldset>
+ 					<legend>Стоимость</legend>
+ 					<input type="range" min="0" max="15000" name="price">
+ 				</fieldset>		
+
+ 				<fieldset>
+ 					<legend>Сетка</legend>
+ 					<ul>
+ 						<li class="filter-option"><input class="visually-hidden filter-input" type="radio" name="grid" value="adaptive" checked>Адаптивная</li>
+ 						<li class="filter-option"><input class="visually-hidden filter-input" type="radio" name="grid" value="fixed">Фиксированная</li>
+ 						<li class="filter-option"><input class="visually-hidden filter-input" type="radio" name="grid" value="rubber">Резиновая</li>
+ 					</ul>
+ 				</fieldset>
+
+ 				<fieldset>
+ 					<legend>Особенности</legend>
+ 					<ul>
+ 						<li class="filter-option">
+ 							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" checked>Слайдер
+ 						</li>
+ 						<li class="filter-option">
+ 							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block-of-features">Блок преимуществ
+ 						</li>
+ 						<li class="filter-option">
+ 							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" checked>Новости
+ 						</li>
+ 						<li class="filter-option">
+ 							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery">Галерея
+ 						</li>
+ 						<li class="filter-option">
+ 							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket">Корзина
+ 						</li>
+ 					</ul>
+ 				</fieldset>
+ 				<button class="filter-button button" type="submit">Показать</button>
+ 			</form>
+ 		</section>
+
+ 		<section class="catalog">
+ 			<h2 class="visually-hidden">Список проектов</h2>
+ 				<p class="project-sort">Сортироввать</p>
+ 				<ul>
+ 					<li class="sort-option-current">
+ 						<button>По цене</button>
+ 					</li>
+ 					<li class="sort-option">
+ 						<button>По типу</button>
+ 					</li>
+ 					<li class="sort-option-current">
+ 						<button>По названию</button>
+ 					</li>
+ 				</ul>
+ 				
+ 		</section>
+ 	</main>
+  </body>
+  </html>

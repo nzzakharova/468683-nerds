@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Наталья Захарова](https://up.htmlacademy.ru/htmlcss/18/user/468683).
+* Студент: [Наташа Захарова](https://up.htmlacademy.ru/htmlcss/18/user/468683).
 * Наставник: [Виктория Коваленко](https://htmlacademy.ru/profile/id504929).
 
 ---
