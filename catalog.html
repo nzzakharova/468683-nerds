@@ -66,22 +66,66 @@
  			</form>
  		</section>
 
- 		<section class="catalog">
- 			<h2 class="visually-hidden">Список проектов</h2>
- 				<p class="project-sort">Сортироввать</p>
+ 		<section class="sort">
+ 			<h2 class="visually-hidden">Сортировка</h2>
+ 				<p class="project-sort">Сортировать</p>
  				<ul>
  					<li class="sort-option-current">
- 						<button>По цене</button>
+ 						<button class="sort-option-button" type="submit">По цене</button>
  					</li>
  					<li class="sort-option">
- 						<button>По типу</button>
+ 						<button class="sort-option-button" type="submit">По типу</button>
  					</li>
- 					<li class="sort-option-current">
- 						<button>По названию</button>
+ 					<li class="sort-option">
+ 						<button class="sort-option-button" type="submit">По названию</button>
  					</li>
  				</ul>
- 				
  		</section>
+
+    <section class="catalog">
+      <h2 class="visually-hidden">Проекты</h2>
+      <ul>
+        <li class="catalog-item">
+          <a href="catalog-item.html"><img src="img/catalog-item-1" width="360" height="616"></a>
+        </li>
+        <li class="catalog-item">
+          <a href="catalog-item.html"><img src="img/catalog-item-2" width="360" height="616"></a>
+        </li>
+      </ul>
+
+      <ul class="pagination-list">
+        <li class="pagination-item pagination-item-current"><a>1</a></li>
+        <li class="pagination-item"><a href="#">2</a></li>
+        <li class="pagination-item"><a href="#">3</a></li>
+        <li class="pagination-item"><a href="#">Следующая</a></li>
+      </ul>
+    </section>
+
+    <section class="contacts">
+    <h2 class="visually-hidden">Контакты</h2>
+      <p>
+            Nёrds Design Studio<br>
+            191186, Санкт-Петербург,<br>
+            ул. Б.Конюшенная, д. 19/8<br>
+            тел. +7(812)275-75-75<br>
+              <a class="button" href="#">Напишите нам</a>
+          </p>
+    </section>
+
+    <footer class="main-footer">
+          <div class="footer-social">
+          <ul>
+            <li><a class="social-button" href="#">Вконтакте</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+          </ul>
+          <p>
+            <b>Давайте дружить, это выгодно!</b>
+            <b>Скидка 10: для друзей социальный сетей</b>
+          </p>
+          </div>
+       </footer>
+
  	</main>
   </body>
   </html>
