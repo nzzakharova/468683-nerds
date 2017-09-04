@@ -18,10 +18,10 @@
                 <li><a href="store.html">Магазин</a></li>
   	            <li><a href="contacts.html">Контакты</a></li>
             </ul>
+            <div class="cart">
+                <a href="cart.html">Корзина</a>
+            </div>
         </nav>
-        <div class="cart">
-            <a href="cart.html">Корзина</a>
-        </div>
  	</header>
 
  	<main class="container">
@@ -50,6 +50,18 @@
  				<p class="feature-item-desc">Работать днем как все? Мы против этого. Ближе к полуночи работа только начинается</p>
  				<a class="button" href="#">Узнать больше</a>
  			</div>
+
+            <ul class="slider-switches">
+                <li class="slide-radio">
+                    <button class="slide-btn">Первый слайд</button>
+                </li>
+                <li class="slide-radio">
+                    <button class="slide-btn">Второй слайд</button>
+                </li>
+                <li class="slide-radio">
+                    <button class="slide-btn">Третий слайд</button>
+                </li>
+            </ul>
  		</div>
 
  		<section class="services">
@@ -96,35 +108,33 @@
             <div class="about-us-info">
                 <h3>Мы-маленькая, но гордая дизайн-студия из Краснодара</h3>
                 <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-                <span class="services">Выполняем заказы на разработку:</span>
-                <ul class="services-list">
- 			        <li class="service-item">Веб-сайтов любой сложности</li>
- 					<li class="service-item">Мобильных приложений для IOS и Android</li>
- 					<li class="service-item">Слайдшоу и видео корпоративных презентаций</li>
+                <span class="about-us-services">Выполняем заказы на разработку:</span>
+                <ul class="about-us-services-list">
+ 			        <li class="about-us-service-item">Веб-сайтов любой сложности</li>
+ 					<li class="about-us-service-item">Мобильных приложений для IOS и Android</li>
+ 					<li class="about-us-service-item">Слайдшоу и видео корпоративных презентаций</li>
  				</ul>
             </div>
 
-            <div class="about-us-statistic">
+            <div class="statistic">
                 <h3 class="visually-hidden">Статистика</h3>
                 <div class="main-header-logo">
                     <img src="img/nerds-illustration.png" width="360" height="208" alt="Логотип «Nerds»">
                 </div>
 
-                <div>
-                    <table>
-                        <caption>С 2004 года любим точность во всем:</caption>
-                        <tr class="about-us-statistic-value">
-                            <td>146%</td>
-                            <td>100%</td>
-                            <td>50%</td>
-                        </tr>
-                        <tr class="about-us-statistic-item">
-                            <th>Уровень самоотдачи</th>
-                            <th>Соблюдение сроков</th>
-                            <th>Минимальная предоплата</th>
-                        </tr>
-                    </table>
- 		         </div>
+                <table>
+                    <caption class="statistic-title">С 2004 года любим точность во всем:</caption>
+                    <tr class="statistic-value">
+                        <th>146<span class="sup">%</span></th>
+                        <th>100<span class="sup">%</span></th>
+                        <th>50<span class="sup">%</span></th>
+                    </tr>
+                    <tr class="statistic-item">
+                        <td>Уровень самоотдачи</td>
+                        <td>Соблюдение сроков</td>
+                        <td>Минимальная предоплата</td>
+                    </tr>
+                </table>
             </div>
         </section>
 
@@ -132,46 +142,60 @@
  		<h2 class="visually-hidden">Реализованные проекты</h2>
  			<ul class="project-list">
  				<li class="project-item">
- 					<a class="project-item-logo">
+ 					<a href="#" class="project-item-logo">
  						<img src="img/logo-1.png" width="200" height="68" alt="Логотип HTML Academy">
  					</a>
  				</li>
  				<li class="project-item">
- 					<a class="project-item-logo">
+ 					<a href="#" class="project-item-logo">
  						<img src="img/logo-2.png" width="210" height="86" alt="Логотип Barbershop Borodinsky">
  					</a>
  				</li>
  				<li class="project-item">
- 					<a class="project-item-logo">
+ 					<a href="#" class="project-item-logo">
  						<img src="img/logo-3.png" width="185" height="52" alt="Логотип Pink">
  					</a>
  				</li>
  				<li class="project-item">
- 					<a class="project-item-logo">
+ 					<a href="#" class="project-item-logo">
                         <img src="img/logo-4.png" width="173" height="84" alt="Логотип Mishka">
                     </a>
  				</li>
  			</ul>
  		</section>
+    </main>
 
+    <footer class="main-footer">
         <section class="map">
             <h2 class="visually-hidden">Карта</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424177499!2d30.320889251546724!3d59.93879686895912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1502782145171" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424177499!2d30.320889251546724!3d59.93879686895912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1502782145171" allowfullscreen width="1440" height="416"alt="Офис агентства по адресу ул. Б.Конюшенная, д. 19/8, г. Санкт-Петербург"></iframe>
 
             <div class="contacts">
                 <h2 class="visually-hidden">Контакты</h2>
- 			    <p>
-                    Nёrds Design Studio<br>
+                <p>
+                    <h3>Nёrds Design Studio</h3><br>
                     191186, Санкт-Петербург,<br>
                     ул. Б.Конюшенная, д. 19/8<br>
                     тел. +7(812)275-75-75<br>
                     <a class="button" href="#">Напишите нам</a>
-       	        </p>
+                </p>
             </div>
  		</section>
-    </main>
 
- 	<footer class="main-footer">
+        <section class="modal-feedback">
+            <h2>Напишите нам</h2>
+            <form class="feedback-form" method="post" action="https://echo.htmlacademy.ru">
+                <label for="user-name">Ваше имя:</label>
+                <input type="text" name="user-name" id="user-name" placeholder="Представьтесь, пожалуйста" required>
+                <label for="e-mail">Ваш e-mail:</label>
+                <input type="email" name="email" id="e-mail" placeholder="Для отправки ответа" required>
+                <label for="text">Текст письма:</label>
+                <textarea name="text" id="text" placeholder="В свободной форме" required></textarea>
+                <button class="button" type="submit">Отправить</button>
+            </form>
+            <button class="modal-close" type="button">Закрыть</button>
+        </section>
+
         <div class="footer-social">
             <ul>
                 <li><a class="social-button" href="#">Вконтакте</a></li>
@@ -180,8 +204,8 @@
             </ul>
         </div>
         <div class="footer-subscribe">
-            <p>Давайте дружить, это выгодно!</p>
-            <p>Скидка 10: для друзей социальный сетей</p>
+            <p class="footer-subscribe-title">Давайте дружить, это выгодно!</p>
+            <p class="footer-subscribe-discount">Скидка 10% для друзей социальный сетей.</p>
         </div>
    	</footer>
  	
