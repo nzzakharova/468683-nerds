@@ -364,11 +364,6 @@ a.button:focus {
 	border: 2px solid #000000;
 }
 
-.feedback-form input:invalid {
-	color: #e74246;
-	border: 2px solid #e74246;
-}
-
 .footer-social ul {
 	list-style: none;
 }
