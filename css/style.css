@@ -264,7 +264,7 @@ a.button:focus {
 }
 
 .sort-option-button-current:hover,
-.sort-option-button-current:focuse,
+.sort-option-button-current:focus,
 .sort-option-button-current:active {
 	opacity:1;
 }
@@ -329,8 +329,8 @@ a.button:focus {
 }
 
 .feedback-form {
-	width: 960;
-	height: 590;
+	width: 960px;
+	height: 590px;
 	background-color: #ffffff;
 	/* box-shadow: opacity 75% distance 20px size 40px*/ 
 }
