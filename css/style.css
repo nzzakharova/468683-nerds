@@ -18,6 +18,19 @@ a {
 	color: #000000;
 	text-transform: uppercase;
 	background-color: #eeeeee;
+	min-height: 67px;
+	margin-bottom: 0;
+}
+
+.main-navigation {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
 }
 
 a.main-header-logo:hover {
@@ -28,8 +41,20 @@ a.main-header-logo:focus {
 	opacity: 0.3;
 }
 
+.main-header-logo {
+	width: 160px;
+	height: 67px;
+}
+
 .site-navigation {
+	width: 600px;
 	list-style: none;
+	margin-right: 0;
+	padding: 0;
+}
+
+.cart {
+	width: 160px;
 }
 
 .site-navigation a,
