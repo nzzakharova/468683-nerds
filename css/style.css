@@ -41,20 +41,15 @@ a.main-header-logo:focus {
 	opacity: 0.3;
 }
 
-.main-header-logo {
-	width: 160px;
-	height: 67px;
-}
-
 .site-navigation {
-	width: 600px;
+	width: 520px;
 	list-style: none;
 	margin-right: 0;
 	padding: 0;
 }
 
 .cart {
-	width: 160px;
+	width: 115px;
 }
 
 .site-navigation a,
@@ -77,6 +72,10 @@ a.main-header-logo:focus {
 	border-bottom: 2px solid #fb565a;
 }
 
+.visually-hidden {
+	margin: 0;
+}
+
 .page-title {
 	font-size: 55px;
 	line-height: 55px;
@@ -89,6 +88,10 @@ a.main-header-logo:focus {
 	background-color: #eeeeee;
 }
 
+/*.feature-item {
+	display: flex;
+}*/
+
 .feature-item-slogan {
 	font-size: 55px;
 	line-height: 55px;
@@ -98,6 +101,8 @@ a.main-header-logo:focus {
 
 .slider-switches {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .button {
@@ -125,6 +130,16 @@ a.button:focus {
 
 .services-list {
 	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	margin-bottom: 125px;
+}
+
+.services-item {
+	min-height: 347px;
+	width: 360px;
+	margin-right: 40px;
 }
 
 .services-item h3 {
@@ -159,11 +174,26 @@ a.button:focus {
 	background-color: #e5a722;
 }
 
+.about-us-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 125px;
+}
+
+.about-us-info {
+	width: 700px;
+}
+
+.statistic {
+	width: 400px; 
+}
+
 .about-us-info h3 {
 	font-size: 45px;
 	line-height: 45px;
 	font-weight: 500;
 	color: #000000;
+	margin: 0;
 }
 
 .about-us-services,
@@ -175,6 +205,8 @@ a.button:focus {
 
 .about-us-services-list {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .statistic-value {
@@ -194,6 +226,10 @@ a.button:focus {
 
 .project-list {
 	list-style: none;
+	margin-bottom: 125px;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
 }
 
 .project-item a {
@@ -342,6 +378,10 @@ a.button:focus {
 	border: 3px solid #dfdfdf;
 }
 
+.map {
+	width: auto;
+}
+
 .contacts {
 	background-color: #ffffff;
 }
@@ -389,8 +429,16 @@ a.button:focus {
 	border: 2px solid #000000;
 }
 
+.social-subscribe {
+	display: flex;
+	min-height: 175px;
+}
+
 .footer-social ul {
 	list-style: none;
+	width: 260px;
+	margin-right: 140px;
+	padding: 0;
 }
 
 .social-button {
@@ -405,6 +453,10 @@ a.button:focus {
 .social-button:focus {
 	background-color: #d7373b;
 	color: rgba(255,255,255, 0.3); 
+}
+
+.footer-subscribe {
+	width: 560px;
 }
 
 .footer-subscribe-title {
