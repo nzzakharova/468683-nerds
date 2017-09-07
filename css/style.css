@@ -321,7 +321,7 @@ a.button:focus {
 	background-color: #dfdfdf;
 }
 
-.pagination-item a:focuse {
+.pagination-item a:focus {
 	opacity: 0.3;
 }
 
